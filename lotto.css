@@ -1,0 +1,438 @@
+@font-face { font-family: 'BMJUA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff'); font-weight: normal; font-style: normal; }
+@keyframes done {
+    70% {
+        transform: scale(1.2)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+html {
+    font-family: BMJUA
+}
+
+*, ::before, ::after {
+    box-sizing: border-box
+}
+
+body, div, button, h1 {
+    font: inherit;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    background: 0
+}
+
+
+
+
+#title {
+    font-size: 18px;
+    margin: 2rem 0;
+    height: 46px;
+}
+
+#border {
+    border-style: solid;
+    background: border-box;
+    border-width: 1px;
+    position: relative;
+    border-color: #f8a9ce8f;
+    top: 34px;
+    left: 10px;
+    background: content-box;
+    padding: -63px;
+}
+
+#wrapper {
+
+
+
+    background-image: url("images/lottoimg.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position-x: center;
+    background-position-y: 110px;
+    padding: 70px; 
+    background-repeat: no-repeat;
+    height: 739px;
+    background-attachment: fixed;
+}
+
+#numbers {
+    margin-bottom: 20px;
+    padding: 30px;
+    border: 0px solid rgb(0 0 0 / 3%);
+    text-align:center;
+    position: relative;
+    top: -42px;
+}
+
+#lotto-title{
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#whatisdate{
+    font-family: emoji;
+    letter-spacing: 3px;
+    height: 49px;
+    font-size: 21px;
+    line-height: 98px;
+    font-weight: 600;
+}
+
+#qrcode {
+    width:160px;
+    height:160px;
+    margin-top:15px;
+  }
+
+.deadline{
+    text-align: left;
+    margin: 19px;
+    font-size: 14px;
+    padding: 0px;
+    font-family: inherit;
+    letter-spacing: 2px;
+    text-indent: -20px;
+    height: 25px;
+    position: relative;
+    left: -2px;
+}
+
+#rannum{
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-indent: -8px;
+    word-spacing: 1px;
+}
+
+#rannum1{
+    font-size: 15px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+    position: relative;
+    left: -7px;
+    bottom: -2px;
+}
+
+.ranco{
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-indent: -9px;
+    word-spacing: 85px;
+    height: 4px;
+}
+
+.lotto-list {
+    display: block;
+}
+
+.lotto-listA {
+    height: 27px;
+}
+
+.list-sum{
+    margin: -36px;
+    height: 192px;
+    font-size: 1px;
+    outline: 3px;
+    line-height: 0px;
+    position: relative;
+    left: -7px;
+    letter-spacing: 0px;
+}
+
+.블로그 {
+    font-size: 15px;
+    text-indent: 0px;
+    word-spacing: 65px;
+    height: 5px;
+    text-align: center;
+    position: relative;
+    top: 63px;
+    font-family: inherit;
+}
+
+
+.구분선1 {
+
+        margin: 0px;
+        height: 17px;
+        letter-spacing: 0px;
+        position: relative;
+        left: -11px;
+    
+}
+
+.구분선2 {
+    margin: 8px;
+        height: 2px;
+        letter-spacing: 0px;
+        position: relative;
+        left: -11px;
+    
+}
+
+.금액 {
+    word-spacing: 176px;
+    font-size: 15px;
+    position: relative;
+    top: -4px;
+    left: -9px;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+
+.ball {
+    width: 28px;
+    height: 45px;
+    line-height: 92px;
+    border-radius: 50%;
+
+    margin-right: 10px;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    font-family: inherit;
+    position: relative;
+    right: -2px;
+}
+
+.lotto-A {
+    height: 45px;
+    line-height: 87px;
+    border-radius: 52%;
+    margin-right: -4px;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-family: inherit;
+    letter-spacing: 0px;
+}
+
+.lotto-tag {
+    height: 45px;
+    line-height: 80px;
+    border-radius: 50%;
+
+    margin-right: 10px;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-family: inherit;
+}
+
+.addthis_inline_share_toolbox {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 0px;
+}
+
+.btn1 {
+ 
+    width: 95px;
+    height: 34px;
+    color: #fff;
+    border-radius: 32px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    background: #f5eaffc4;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgb(241 219 243 / 78%), 7px 7px 20px 0px rgb(203 211 247), 4px 4px 5px 0px rgb(223 223 223);
+    outline: none;
+    border: 1px currentColor;
+    color: #000000;
+    font-family: fantasy;
+
+  }
+
+  .btn1:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+  }
+
+  .btn1:hover {
+    color: #000;
+  }
+
+  .btn1:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+
+  .btn1:active {
+    top: 2px;
+  }
+
+
+
+#lotto-2-button {
+    position: relative;
+    bottom: -51px;
+    display: block;
+    padding: 1rem 2.5rem 1.6rem;
+    background: #fff;
+    color: #0c0b0b;
+    border: 2px solid #282525;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: .5s;
+    user-select: none
+}
+
+#lotto-2-button:hover {
+    padding: 1rem 2.5rem 1rem;
+    margin-top: .6rem;
+    background: rgb(255, 239, 239);
+    color: rgba(12, 7, 34, 0.872)
+}
+
+#lotto-2-button::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    height: .6rem;
+    width: 100%;
+    position: fixed;
+    /* background-image: repeating-linear-gradient(45deg, #666, #666 1px, transparent 2px, transparent 5px);
+    border-top: 1px solid #666; */
+    transition: .5s
+}
+
+#lotto-2-button:hover::after {
+    transform: translateY(.6rem)
+}
+
+#lotto-2-button.hide {
+    transform: scale(0)
+}
+
+#이미지{
+
+    display: block;
+    padding: 8px 1.5rem 9px;
+    background: #fff;
+    color: #0c0b0b;
+    border: 2px solid #282525;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: .5s;
+    user-select: none;
+    position: relative;
+    top: -58px;
+    left: 415px;
+}
+
+
+#이미지::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    height: 0.6rem;
+    width: 100%;
+    position: fixed;
+    transition: .5s;
+}
+
+#이미지:hover {
+    display: inline-block;
+    padding: 8px 1.5rem 9px;
+    background: rgb(176, 238, 246);
+    color: rgba(12, 7, 34, 0.872);
+}
+
+#이미지:hover::after {
+    transform: translateY(.6rem)
+}
+
+#이미지.hide {
+    transform: scale(0)
+}
+
+
+@media screen and (max-width: 800px) {
+    #numbers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #numbers .ball {
+        width: 22px;
+        font-size: 15px;
+        margin-right: 13px;
+        margin-bottom: 10px
+    }
+
+    #numbers .lotto-tag {
+        width: 35px;
+        font-size: 15px;
+        margin-right: 2px;
+        margin-bottom: 10px
+    }
+
+    .lotto-list {
+        height: 38px;
+        text-indent: -17px;
+        position: relative;
+        top: -6px;
+    }
+
+    #publish-day{
+        font-size: 12px;
+    }
+
+    #raffle-day{
+        font-size: 12px;
+    }
+    
+    #payments-day{
+        font-size: 12px;
+    }
+
+    #lotto-title{
+        font-size: 25px;
+    }
+    
+    #whatisdate{
+        font-size: 21px;
+    }
+
+    #numbers .ball:last-child {
+        margin-bottom: 0
+    }
+
+    
+}

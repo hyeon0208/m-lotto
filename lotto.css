@@ -40,7 +40,7 @@ body, div, button, h1 {
     border-width: 1px;
     position: relative;
     border-color: #f8a9ce8f;
-    top: 34px;
+    top: 39px;   // 버튼 삭제전 34px 
     left: 10px;
     background: content-box;
     padding: -63px;
